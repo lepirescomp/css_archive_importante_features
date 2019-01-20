@@ -1,0 +1,73 @@
+h1 {
+	color: orange;
+	background-color: purple;
+	border-width: 5px;
+	border-color: orange;
+	border-style: ridge;
+	/*coloca o texto ou centro, a esquerda, etc*/
+	text-align: center;
+	/*colona underline,overline,line-trough*/
+	text-decoration: underline;
+
+}
+h4{
+	color: orange;
+	
+}
+/**/
+ul {
+	color: purple;
+	text-decoration-style: bold;
+	/*poe as alturas das linhas, deixando-as mais distantes ou nao*/
+	line-height: 1.5;
+	/*padding eh a parte que fica verde no inspector*/
+	/*padding: 10px;*/
+	/*width da o tamanho da caixa e eh responsivo*/
+	width: 50%;
+	/*margin eh o esapço forta da borda (laranja), padding eh denro da borda(ate o elemento)*/
+	/*margin: 3px 3px 5px 5px;*/
+	margin : 3px 5px;
+	/*margin: 0 auto 0 auto;*/
+}
+
+
+
+body {
+
+	font-family: lato;
+	background: url(bubu.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 20px;
+
+}
+
+p{
+	font-family: Arial;
+}
+
+span{
+	/*poe negrito , pode ir de um range(100,800), sendo 800 mais negrito e vai com passos de 100*/
+	font-weight: bold;
+}
+
+#especial {
+	border-width: 2px;
+	border-color: orange;
+	border-style: dashed;
+	/*"em" significa que fica 2x maior que a da tag anterior na sucessao hierarquica*/
+	font-size: 2em;
+}
+
+.feito{
+	text-decoration: line-through;
+
+}
+
+.fonte{
+	font-family: Georgia;
+}
+
+.relogio{
+	width: 3%;
+}
